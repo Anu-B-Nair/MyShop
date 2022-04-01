@@ -11,9 +11,9 @@ namespace MyShop.Core.Models
         public string Id {get;set;}
         public string Category { get; set; }
 
-        //public ProductCategory()
-        //{
-        //    this.Id = Guid.NewGuid().ToString();
-        //}
+        public ProductCategory()
+        {
+            this.Id = Guid.NewGuid().ToString();
+        }
     }
 }

@@ -23,11 +23,11 @@ namespace MyShop.Core.Models
         public string Image { get; set; }
 
         public string Category { get; set; }
-      
+
         //---Constructor for Id---//
-        //public Product()
-        //{
-        //    this.Id = Guid.NewGuid().ToString();
-        //}
+        public Product()
+        {
+            this.Id = Guid.NewGuid().ToString();
+        }
     }
 }
